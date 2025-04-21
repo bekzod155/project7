@@ -1,0 +1,103 @@
+.analitika-container {
+  padding: 20px;
+}
+
+.savol-container {
+  padding: 20px;
+}
+
+.mySwiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent !important;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  background-image: none !important;
+}
+
+.carousel-card-container {
+  width: 280px;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-card {
+  width: 100%;
+  height: 100%;
+  background: rgba(42, 42, 42, 0.8);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+.carousel-card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-5px);
+}
+
+.carousel-card h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.carousel-card p {
+  color: #ddd;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.glow-button {
+  background: linear-gradient(45deg, #ff00ff, #00ff00);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 20px #ff00ff;
+}
+
+.parallax-effect-glare-scale {
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure Swiper navigation buttons are visible */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  background: #fff;
+}
+
+.swiper-pagination-bullet-active {
+  background: #ff00ff;
+}

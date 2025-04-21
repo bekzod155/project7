@@ -1,0 +1,123 @@
+/* hamjamiyat.css */
+.hamjamiyat .profile-pic {
+  width: 120px !important;
+  height: 120px !important;
+  object-fit: cover !important;
+  border: 2px solid #ddd !important;
+}
+
+.profession-title {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+}
+
+.profession-title::before,
+.profession-title::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid transparent;
+  animation: borderAnimation 4s linear infinite;
+}
+
+.profession-title::after {
+  animation-delay: -2s;
+}
+
+@keyframes borderAnimation {
+  0%, 100% {
+    border-color: transparent;
+  }
+  25% {
+    border-color: #742121;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+  }
+  50% {
+    border-color: #9f18ff;
+    border-bottom-color: transparent;
+  }
+  75% {
+    border-color: #45d155;
+    border-left-color: transparent;
+    border-top-color: transparent;
+  }
+}
+
+.hamjamiyat .card {
+	box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+  border: 2px solid #000 !important;
+  border-radius: 10px !important;
+  padding: 15px !important;
+  background-color: #1e1e1e !important; /* Darker background to match theme */
+  color: #ffffff !important; /* White text to match dark theme */
+  overflow: hidden !important;
+}
+
+.hamjamiyat .skills-list {
+  list-style: none !important;
+  padding: 0 !important;
+  padding-left: 20px !important;
+}
+
+.hamjamiyat .skills-list li {
+  display: inline-block !important;
+  background-color: #ffffff !important;
+  padding: 5px 10px !important;
+  margin: 2px !important;
+  border-radius: 15px !important;
+  font-size: 14px !important;
+  color: #121212 !important; /* Dark text for contrast on light background */
+}
+
+.hamjamiyat .social-icons {
+  font-size: 1.5rem !important;
+}
+
+.hamjamiyat .social-icons a {
+  margin-right: 10px !important;
+   /* White icons to match dark theme */
+  font-size: 20px !important;
+}
+
+.social-icons .fa-instagram {
+    color: #E1306C;
+}
+
+.social-icons .fa-facebook-f {
+    color: #1877F2;
+}
+
+.social-icons .fa-twitter {
+    color: #1DA1F2;
+}
+
+.social-icons .fa-github {
+    color: #808080; /* Gray color for GitHub icon */
+}
+
+.hamjamiyat .card-title,
+.hamjamiyat .card-text,
+.hamjamiyat .card-text strong {
+  color: #ffffff !important; /* Ensure text is white to match dark theme */
+}
+
+.hamjamiyat .card:hover {
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1) !important; /* Light shadow for dark theme */
+  transform: translateY(-5px) !important;
+  transition: all 0.3s ease !important;
+}
+#green{
+	color: rgb(4, 255, 0) !important;
+}
+#prof {
+  background: linear-gradient(45deg, rgb(8, 0, 255), rgb(116, 0, 174)) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  font-weight: bold !important;
+}

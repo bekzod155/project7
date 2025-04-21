@@ -1,5 +1,8 @@
+/* App.css */
 .App {
   text-align: center;
+  background-color: #121212; /* Match dark background */
+  color: #ffffff; /* White text */
 }
 
 .App-logo {
@@ -14,18 +17,18 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #121212; /* Change from #282c34 to match dark theme */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #ffffff; /* White text */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #61dafb; /* Keep as is or change to a lighter color for contrast */
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +38,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background-color: #121212; /* Match dark theme */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Slightly darker shadow for dark theme */
+}
+
+.nav-link {
+  color: #ffffff; /* White text instead of #333 */
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #61dafb; /* Lighter blue for hover, or choose another color */
+}
+
+.landing-page {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #121212; /* Match dark theme */
+  color: #ffffff; /* White text */
 }

@@ -1,0 +1,15 @@
+.savol-container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.response-card {
+	margin-top: 20px;
+	background-color: #f8f9fa;
+  box-shadow: rgba(9, 128, 255, 0.972) 0px 5px 15px !important;
+}
+
+.response-text {
+	white-space: pre-wrap;
+  
+}

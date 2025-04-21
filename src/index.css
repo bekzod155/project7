@@ -1,13 +1,39 @@
-body {
+/* index.css */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root, .App {
+  background-color: #121212 !important; /* Dark background */
+  color: #ffffff !important; /* White text */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  color: #ffffff; /* Ensure code blocks are also white */
+}
+/* index.css */
+.navbar, .navbar-dark {
+  background-color: #121212 !important;
+  color: #ffffff !important;
+}
+
+.btn {
+  background-color: #1e1e1e; /* Slightly lighter dark for buttons */
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn:hover {
+  background-color: #61dafb;
+  color: #121212;
 }
