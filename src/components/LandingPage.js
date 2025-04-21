@@ -48,18 +48,6 @@ function LandingPage() {
     }
   };
 
-  const borderVariants = {
-    hidden: { pathLength: 0, opacity: 0 },
-    visible: { 
-      pathLength: 1, 
-      opacity: 1, 
-      transition: { 
-        duration: 2,
-        ease: "easeInOut",
-      }
-    }
-  };
-
   const gradientVariants = {
     hidden: { opacity: 0 },
     visible: { 
